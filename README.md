@@ -26,6 +26,7 @@ Components Overview
 
 Running Tests and Starting the Application
 
+- To Install Dependencies: Please use: `yarn install`
 - Running Tests:
     - To run the tests, you can execute: `yarn test`
 - Starting the Application:
