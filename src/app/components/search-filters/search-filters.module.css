@@ -1,0 +1,75 @@
+.filterButton {
+  background-color: var(--token-color-colour-brand-red);
+  color: var(--token-color-colour-text-inverted-primary);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 8px; 
+}
+
+.filterButton:hover {
+  background-color: var(--token-color-colour-brand-purple); 
+}
+
+.filters {
+  border: 1px solid var(--token-color-colour-border-minimal);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: var(--token-color-colour-background-secondary);
+  margin-bottom: 20px;
+}
+
+.filterGroup {
+  margin-bottom: 16px;
+}
+
+.filterGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.filterGroup input[type="number"],
+.filterGroup input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.filterGroup input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--token-color-colour-border-minimal);
+  border-radius: 4px;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.filters button {
+  background-color: var(--token-color-colour-brand-red);
+  color: var(--token-color-colour-text-inverted-primary);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 8px; 
+}
+
+.filters button:hover {
+  background-color: var(--token-color-colour-brand-purple); 
+}
+
+.filters .clearButton {
+  background-color: var(--token-color-colour-background-tertiary); 
+  color: var(--token-color-colour-text-primary);
+  border: 1px solid var(--token-color-colour-border-minimal);
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filters  .clearButton:hover {
+  background-color: var(--token-color-colour-border-decorative); 
+}
